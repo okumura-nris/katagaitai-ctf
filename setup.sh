@@ -29,7 +29,7 @@ wget -qO- https://raw.githubusercontent.com/bata24/gef/dev/install-uv.sh | sh
 
 # QEMU
 echo "[*] install QEMU"
-sudo apt install -y qemu-user qemu-user-static qemu-system-x86
+sudo apt install -y qemu-system
 
 # PyCryptodome
 pip3 install pycryptodome
